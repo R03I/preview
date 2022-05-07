@@ -1,0 +1,195 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/mobil-menu.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="container-fluid p-0 m-0">
+        <section>
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                  <a onclick="closeNav()" href="#about_us">Kik vagyunk</a>
+                  <a onclick="closeNav()" href="#services">Szolgáltatásaink</a>
+                  <a onclick="closeNav()" href="#reference">Referenciák</a>
+                  <a onclick="closeNav()" href="#contact">Kapcsolat</a>
+                </div>
+              
+            </div>              
+        </section>
+        <section>
+        <div class="menu">
+            <div class="menu-mobil d-flex d-md-none justify-content-between ps-3 pe-3 align-items-center">
+                <a href="#"><img src="img/logo.png" alt="logo" class="h-100"></a>
+                <i onclick="openNav()" class="fa-solid fa-bars"></i>
+            </div>
+            <div class="menu-inner d-none d-md-flex">
+                <div class="menu-item">
+                    <a class="" href="#"><img src="img/logo.png" alt="logo" class="logo h-100"></a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#about_us">Kik vagyunk</a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#services">Szolgáltatásaink</a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#reference">Referenciák</a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#contact">Elérhetőségek</a>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section>
+        <div class="row m-0 p-0">
+            <div class="col-lg-6 m-0 p-0 main-left-side text-center text-md-left">
+                <div>
+                    <div class="triangle triangle-1"></div>
+                    <div class="triangle triangle-2"></div>
+                    <div class="triangle triangle-3"></div>
+                    <div class="triangle triangle-4"></div>
+                    <div class="triangle triangle-5"></div>
+                    <h1><b>LOREN IPSUN</b> is simply</h1>
+                    <h3>Egyedi oldalak <b><span class="text-end-effect"></span></b></h3>
+                    <button class="default-button mt-3 mt-md-0">Referenciák</button>
+                </div>
+            </div>
+            <div class="col-lg-6 m-0 p-0 d-none d-md-block">
+                <video class="background-video" autoplay loop muted>
+                    <source src="video/video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        </section>
+        <section id="about_us">
+            <div class="container mt-5 pt-5 mb-5 pb-5">
+                <h5 class="mb-5 pb-5">ABOUT US</h5>
+                <div class="row justify-content-around">
+                    <div class="col-lg-4 custom-card m-0 p-0">
+                        <div class="w-100 zoom-outside">
+                            <img src="img/person.webp" class="m-0 p-0 d-block w-100 zoom" alt="Nagy Béla">
+                        </div>
+                        <h4 class="text-center mt-4">Nagy Béla</h4>
+                        <p class="text-center">(IT security)</p>
+                        <p class="text-justify ps-4 pe-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                    <div class="col-lg-4 custom-card m-0 p-0 mt-5 mt-md-0">
+                        <div class="w-100 zoom-outside">
+                            <img src="img/person2.jpg" class="m-0 p-0 d-block w-100 zoom" alt="Nagy Béla">
+                        </div>
+                        <h4 class="text-center mt-4">Nagy Béla</h4>
+                        <p class="text-center">(Developer)</p>
+                        <p class="text-justify ps-4 pe-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container-fluid mt-5 pt-5 bg-dark text-light pb-5">
+                <h5 class="mt-5 mb-5 pb-5">SZOLGÁLTATÁSAINK</h5>
+                <div class="row container m-auto mt-5 justify-content-around pb-5">
+                    <div class="col-lg-3 m-0 p-0 align-items-center d-flex shadow success-border">
+                        <div>
+                            <img src="img/billing.jpg" class="m-0 p-0 d-block w-100 mb-4" alt="dummy text">
+                            <h4 class="text-center">Automata számlázás</h4>
+                            <p class="mb-0 text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 m-0 p-0 align-items-center d-flex shadow">
+                        <div>
+                            <img src="img/billing.jpg" class="m-0 p-0 d-block w-100 mb-4 mt-5 mt-md-0" alt="dummy text">
+                            <h4 class="text-center">API Integrációk</h4>
+                            <p class="mb-0 text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 m-0 p-0 align-items-center d-flex shadow">
+                        <div>
+                            <img src="img/billing.jpg" class="m-0 p-0 d-block w-100 mb-4 mt-5 mt-md-0" alt="dummy text">
+                            <h4 class="text-center">Egyedi webshopok</h4>
+                            <p class="mb-0 text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        <section id="reference">
+            <div class="container mt-5 pt-5 mb-5 pb-5">
+                <h5 class="mb-5 pb-5">REFERENCIÁK</h5>
+                <div class="row justify-content-center custom-card">
+                    <div class="col-lg-4 custom-card m-0 p-0">
+                        <div class="w-100 zoom-outside">
+                            <img src="img/website.png" class="m-0 p-0 d-block w-100 zoom" alt="Nagy Béla">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 ps-5 pe-5 d-flex align-items-center">
+                        <div class="mt-3 pb-3">
+                            <h4 class="text-left">Webshop</h4>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                            <button class="default-button pt-1 pb-1">Tovább</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center custom-card mt-5">
+                    <div class="col-lg-8 ps-5 pe-5 d-flex align-items-center order-2 order-md-1">
+                        <div class="mt-3 pb-3">
+                            <h4 class="text-left">Logisztikai rendszer</h4>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                            <button class="default-button pt-1 pb-1">Tovább</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 custom-card m-0 p-0 order-1 order-md-2">
+                        <div class="w-100 zoom-outside">
+                            <img src="img/website.png" class="m-0 p-0 d-block w-100 zoom" alt="Nagy Béla">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center custom-card mt-5">
+                    <div class="col-lg-4 custom-card m-0 p-0">
+                        <div class="w-100 zoom-outside">
+                            <img src="img/website.png" class="m-0 p-0 d-block w-100 zoom" alt="Nagy Béla">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 ps-5 pe-5 d-flex align-items-center">
+                        <div class="mt-3 pb-3">
+                            <h4 class="text-left">Üzleti alkalmazás</h4>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                            <button class="default-button pt-1 pb-1">Tovább</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container mt-5 pt-5">
+                <h5>KAPCSOLAT</h5>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 d-flex align-items-center">
+                        <div>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p class="text-center text-md-left"><i class="fa-solid fa-phone"></i> +36 (30) 123 1234</p>
+                            <p class="text-center text-md-left"><i class="fa-solid fa-envelope"></i> etcetc@valami.hu</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/man.png" class="w-100">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </body>
+    <script src="main.js"></script>
+</html>
