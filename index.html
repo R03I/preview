@@ -13,17 +13,20 @@
     </head>
     <body class="container-fluid p-0 m-0">
         <section>
+            <div id="myNavBG" class="overlay-bg">
+            </div>
             <div id="myNav" class="overlay">
 
                 <!-- Button to close the overlay navigation -->
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
               
                 <!-- Overlay content -->
                 <div class="overlay-content">
-                  <a onclick="closeNav()" href="#about_us">Kik vagyunk</a>
-                  <a onclick="closeNav()" href="#services">Szolgáltatásaink</a>
-                  <a onclick="closeNav()" href="#reference">Referenciák</a>
-                  <a onclick="closeNav()" href="#contact">Kapcsolat</a>
+                  <a class="bg-dark pt-3 pb-3 text-light text-center" onclick="closeNav()"><i class="fa-solid fa-caret-left"></i> Vissza</a>
+                  <a onclick="closeNav()" href="#about_us"><i class="fa-solid fa-people-group"></i> Kik vagyunk</a>
+                  <a onclick="closeNav()" href="#services"><i class="fa-regular fa-building"></i> Szolgáltatásaink</a>
+                  <a onclick="closeNav()" href="#reference"><i class="fa-regular fa-arrow-rotate-right"></i> Referenciák</a>
+                  <a onclick="closeNav()" href="#contact"><i class="fa-regular fa-address-card"></i> Kapcsolat</a>
                 </div>
               
             </div>              
@@ -75,7 +78,7 @@
         </div>
         </section>
         <section id="about_us">
-            <div class="container mt-5 pt-5 mb-5 pb-5">
+            <div class="container mt-5 pt-5 mb-5 pb-5 pe-4 ps-4">
                 <h5 class="mb-5 pb-5">ABOUT US</h5>
                 <div class="row justify-content-around">
                     <div class="col-lg-4 custom-card m-0 p-0">
@@ -126,7 +129,7 @@
                 </div>
             </div>
         <section id="reference">
-            <div class="container mt-5 pt-5 mb-5 pb-5">
+            <div class="container mt-5 pt-5 mb-5 pb-5 pe-4 ps-4">
                 <h5 class="mb-5 pb-5">REFERENCIÁK</h5>
                 <div class="row justify-content-center custom-card">
                     <div class="col-lg-4 custom-card m-0 p-0">
