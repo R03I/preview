@@ -1,6 +1,6 @@
 .overlay-bg{
   height: 100%;
-  width: 100%;
+  width: 0%;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -13,14 +13,14 @@
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
     height: 100%;
-    width: 80%;
+    width: 0%;
     position: fixed; /* Stay in place */
     z-index: 2; /* Sit on top */
     left: 0;
     top: 0;
     background-color: rgba(255,255,255, 0.9); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    transition: 0.4s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
     box-shadow: 0 0 10px -2px gray;
   }
   
