@@ -323,7 +323,7 @@ h5{
 }
 
 .main-timeline .icon:after {
-    border: 2px solid #BDD0FB;
+    border: 2px solid #FD8177;
     left: 0px
 }
 
@@ -382,8 +382,16 @@ h5{
     left: 0px
 }
 
+.date-outer.secound{
+    margin-top: 34px;
+}
+
+.main-timeline .date-outer.secound:after{
+    margin-top: 12px;
+}
+
 .main-timeline .date-outer:after {
-    border: 2px solid #7D97F4;
+    border: 2px solid #FFB635;
     left: 0px
 }
 
