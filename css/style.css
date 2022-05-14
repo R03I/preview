@@ -533,6 +533,10 @@ h5{
     .hero-left-side{
         width: 50%;
     }
+    .main-left-side{
+        padding-top: 11%;
+    }
+    
 }
 @media only screen and (max-width: 1439px) {
     .hero-right-side{
