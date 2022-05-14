@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', serif;
+    font-family: 'Lora', serif;
 }
 .full-bg{
     background-image: url('../img/background.jpg');
@@ -94,20 +94,20 @@ video {
 h1{
     font-size: 80px;
     font-weight: 300;
-    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 b{
     font-weight: 900;
 }
 h3{
     font-weight: lighter;
-    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 h5{
     text-align: center;
     font-size: 46px;
     font-weight: 900;
-    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 .text-justify{
     text-align: justify;
