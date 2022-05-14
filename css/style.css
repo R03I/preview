@@ -274,7 +274,7 @@ h5{
     display: block;
     width: 2px;
     height: 100%;
-    background: #BDD0FB;
+    background: #bbbbbb;
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -323,9 +323,31 @@ h5{
 }
 
 .main-timeline .icon:after {
+    border: 2px solid #FFB635;
+    left: 0px
+}
+
+.main-timeline .icon.secound:after {
     border: 2px solid #FD8177;
     left: 0px
 }
+
+.main-timeline .icon.third:after {
+    border: 2px solid #91B3FA;
+    left: 0px
+}
+
+.main-timeline .icon.fourth:after {
+    border: 2px solid #5255FA;
+    left: 0px
+}
+
+.main-timeline .icon.fifth:after {
+    border: 2px solid #1A0F91;
+    left: 0px
+}
+
+
 
 .main-timeline .timeline:hover .icon:before {
     left: 0px
@@ -346,12 +368,28 @@ h5{
     content: "";
     width: 36.5%;
     height: 2px;
-    background: #BDD0FB;
+    background: #FFB635;
     margin: auto 0;
     position: absolute;
     top: 0;
     right: 10px;
     bottom: 0
+}
+
+.main-timeline .date-content.secound:before {
+    background: #FD8177;
+}
+
+.main-timeline .date-content.third:before {
+    background: #91B3FA;
+}
+
+.main-timeline .date-content.fourth:before {
+    background: #5255FA;
+}
+
+.main-timeline .date-content.fifth:before {
+    background: #1A0F91;
 }
 
 .main-timeline .date-outer {
@@ -393,6 +431,23 @@ h5{
 .main-timeline .date-outer:after {
     border: 2px solid #FFB635;
     left: 0px
+}
+
+.main-timeline .date-outer.secound:after {
+    border: 2px solid #FD8177;
+    left: 0px
+}
+
+.main-timeline .date-outer.third:after {
+    border:2px solid #91B3FA;
+}
+
+.main-timeline .date-outer.fourth:after {
+    border:2px solid #5255FA;
+}
+
+.main-timeline .date-outer.fifth:after {
+    border:2px solid #1A0F91;
 }
 
 .main-timeline .timeline:hover .date-outer:before {
