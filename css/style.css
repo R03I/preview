@@ -8,6 +8,13 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.contact-link{
+    text-decoration: none;
+    color: #343a40;
+}
+.contact-link:hover{
+    color: #FFB635;
+}
 .menu-inner{
     transition: 0.3s;
     width: 800px;
@@ -34,6 +41,9 @@ body{
     height: 50px;
     width: 700px;
 }
+.footer{
+    background-color: #FFB635;
+}
 
 .top-button{
     font-size: 24pt;
@@ -45,6 +55,7 @@ body{
     padding-bottom: 10px;
     background: #FFB635;
     border: 1px solid #FFB635;
+    -webkit-animation: pulse 5.0s infinite;
 }
 
 .menu-scroll-bg{
@@ -100,7 +111,7 @@ b{
     font-weight: 900;
 }
 h3{
-    font-weight: lighter;
+    font-weight: 200;
     font-family: 'Roboto Mono', monospace;
 }
 h5{
@@ -146,7 +157,8 @@ h5{
 }
 
 .zoom{
-    width: 100%;
+    width: 150px;
+    height: 150px;
     transition: 0.5s all ease-in-out;
 }
 
@@ -156,6 +168,8 @@ h5{
 
 .zoom-outside{
     overflow: hidden;
+    width: 150px;
+    height: 150px;
 }
 
 .custom-card{
@@ -654,107 +668,14 @@ h5{
     }
 }
 
-@-webkit-keyframes textWrite {
+@-webkit-keyframes pulse {
     0% {
-      content:"k";
+      width: #FFB635;
     }
-    1% {
-        content:"ké";    
+    50% {
+      background: #f18408;
     }
-    2% {
-        content:"kés";
-    }
-    3% {
-        content:"kész";
-    }
-    4% {
-        content:"készí";
-    }
-    5% {
-        content:"készít";
-    }
-    6% {
-        content:"készíté";
-    }
-    7% {
-        content:"készítés";
-    }
-    8% {
-        content:"készítése";
-    }
-    34% {
-        content:"készítése";
-    }
-    35% {
-        content:"f";
-    }
-    36% {
-        content:"fe";
-    }
-    37% {
-        content:"fej";
-    }
-    38% {
-        content:"feje";
-    }
-    39% {
-        content:"fejes";
-    }
-    40% {
-        content:"fejesz";
-    }
-    41% {
-        content:"fejeszt";
-    }
-    42% {
-        content:"fejeszté";
-    }
-    43% {
-        content:"fejesztés";
-    }
-    44% {
-        content:"fejesztése";
-    }
-    64% {
-        content:"fejesztése";
-    }
-    65% {
-        content:"k";
-    }
-    66% {
-        content:"ka";
-    }
-    67% {
-        content:"kar";
-    }
-    68% {
-        content:"karb";
-    }
-    69% {
-        content:"karba";
-    }
-    70% {
-        content:"karban";
-    }
-    71% {
-        content:"karbant";
-    }
-    72% {
-        content:"karbanta";
-    }
-    73% {
-        content:"karbantar";
-    }
-    74% {
-        content:"karbantart";
-    }
-    75% {
-        content:"karbantartá";
-    }
-    76% {
-        content:"karbantartás";
-    }
-    77% {
-        content:"karbantartása";
-    }
-}
+    100% {
+        width: #FFB635;
+      }
+  }
