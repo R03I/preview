@@ -156,6 +156,11 @@ h5{
     box-sizing: border-box;
 }
 
+.max-width-about{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 .zoom{
     width: 150px;
     height: 150px;
