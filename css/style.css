@@ -17,13 +17,14 @@ body{
 }
 .menu-inner{
     transition: 0.3s;
-    width: 800px;
+    width: 900px;
     display: flex;
     justify-content: start;
     align-items: center;
     justify-content: space-between;
     height: 150px;
     padding: 5px;
+    padding-left: 80px;
     margin: 10px;
 }
 .menu{
@@ -39,7 +40,7 @@ body{
 }
 .menu-scrolled{
     height: 50px;
-    width: 700px;
+    width: 900px;
 }
 .footer{
     background-color: #FFB635;
@@ -187,6 +188,7 @@ h5{
 .custom-card{
     box-shadow: 0 2px 10px -2px gray;
     transition: all 0.3s;
+    border-radius: 15px;
 }
 
 .custom-card:hover{
