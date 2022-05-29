@@ -8,6 +8,15 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.arrow-down-effect{
+    position: absolute;
+    margin-top: 90vh;
+    top: 0;
+}
+.fa-chevron-down{
+    font-size: 40px;
+    -webkit-animation: down-arrow-animate 1.0s infinite;
+}
 .contact-link{
     text-decoration: none;
     color: #343a40;
@@ -648,7 +657,17 @@ h5{
     }
 }
 
+@media only screen and (max-height: 767px) {
+    h1{
+        padding-top: 20px;
+        font-size: 2.8em;    
+    }
+}
+
 @media only screen and (max-width: 1024px) {
+    .arrow-down-effect{
+        display: none;
+    }
     .menu-mobil{
         display: flex;
     }
@@ -702,3 +721,14 @@ h5{
         width: #FFB635;
       }
   }
+  @-webkit-keyframes down-arrow-animate {
+    0% {
+        padding-top: 0%;
+    }
+    50% {
+        padding-top: 10px;
+    }
+    100% {
+        padding-top: 0px;
+    }
+}
