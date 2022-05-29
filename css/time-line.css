@@ -57,6 +57,7 @@
   text-transform: uppercase;
   font-weight: 600;
   color: #F921AF;
+  padding-bottom: 10px;
   letter-spacing: 1.5px;
 }
 .timeline__event__content {
