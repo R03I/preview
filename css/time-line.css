@@ -67,6 +67,7 @@
   border-radius: 0 6px 6px 0;
 }
 .timeline__event__date {
+  min-width: 130px;
   color: white;
   font-size: 1.5rem;
   font-weight: 600;
@@ -163,6 +164,7 @@
 }
 .timeline__event--type3 .timeline__event__title {
   color: #F2CB05;
+  font-size: 14pt;
 }
 
 .timeline__event--type4:after {
