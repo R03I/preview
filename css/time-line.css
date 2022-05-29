@@ -14,7 +14,7 @@
   margin: 20px 0;
   border-radius: 6px;
   align-self: center;
-  width: 50vw;
+  width: 44vw;
 }
 .timeline__event:nth-child(2n + 1) {
   flex-direction: row-reverse;
@@ -67,7 +67,7 @@
   border-radius: 0 6px 6px 0;
 }
 .timeline__event__date {
-  min-width: 100px;
+  min-width: 10px;
   color: white;
   font-size: 1.5rem;
   font-weight: 600;
@@ -84,6 +84,9 @@
   align-items: center;
   justify-content: center;
   color: #F921AF;
+  color: white;
+  font-size: 20pt;
+  font-weight: bolder;
   padding: 20px;
   align-self: center;
   margin: 0 20px;
@@ -137,7 +140,6 @@
 }
 .timeline__event--type2 .timeline__event__icon {
   background: #F94391;
-  color: #F94391;
 }
 .timeline__event--type2 .timeline__event__icon:before, .timeline__event--type2 .timeline__event__icon:after {
   background: #F94391;
