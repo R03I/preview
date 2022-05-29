@@ -52,7 +52,7 @@
   animation: fillLeft 0.1s forwards 0.1s ease-in-out;
 }
 .timeline__event__title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.4;
   text-transform: uppercase;
   font-weight: 600;
