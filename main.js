@@ -3,11 +3,9 @@ document.addEventListener('scroll', function(e) {
     if (scroll >= 1) {
         document.getElementsByClassName('menu-inner')[0].classList.add("menu-scrolled")
         document.getElementsByClassName('menu')[0].classList.add("menu-scroll-bg")
-        document.getElementsByClassName('icon-top-side')[0].style.width = "150px"
     } else {
         document.getElementsByClassName('menu-inner')[0].classList.remove("menu-scrolled")
         document.getElementsByClassName('menu')[0].classList.remove("menu-scroll-bg")
-        document.getElementsByClassName('icon-top-side')[0].style.width = "200px"
     }
 });
 
