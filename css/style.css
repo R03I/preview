@@ -74,26 +74,39 @@ video {
     object-fit: cover;
 }
 
-.menu-link{
+.menu-link {
     text-decoration: none;
-    color: black;
+    color: #000;
     cursor: pointer;
     font-weight: 300;
 }
-
-.menu-link:hover{
+.menu-link:hover {
     color: #4d4d4d;
 }
-.menu-link:hover::after{
-    position: relative;
-    bottom: 3px;
-    width: 100%;
-    background-color: #4d4d4d;
-    content: "";
-    height: 2px;
-    display: inline-block;
-    -webkit-animation-name: run;
-    -webkit-animation-duration: 0.5s;
+.logo-image-desktop{
+    width: 200px;
+}
+.logo-image-desktop-scrolled{
+    width: 150px;
+}
+.menu-link:hover::after  {
+    position:  relative;
+    bottom:  3px;
+    width:  100%;
+    left:  0;
+    bottom:  -5px;
+    background-color:  #FFB635;
+    content:  "";
+    height:  2px;
+    display:  grid;
+    -webkit-animation-name:  run;
+    -webkit-animation-duration:  .5s;
+}
+
+.footer-icon{
+    font-size: 18pt;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .main-left-side{
@@ -112,7 +125,7 @@ b{
     font-weight: 900;
 }
 h3{
-    font-weight: 200;
+    font-weight: 900;
     font-family: 'Roboto Mono', monospace;
 }
 h5{

@@ -3,9 +3,11 @@ document.addEventListener('scroll', function(e) {
     if (scroll >= 1) {
         document.getElementsByClassName('menu-inner')[0].classList.add("menu-scrolled")
         document.getElementsByClassName('menu')[0].classList.add("menu-scroll-bg")
+        document.getElementsByClassName('logo-image-desktop')[0].classList.add("logo-image-desktop-scrolled")
     } else {
         document.getElementsByClassName('menu-inner')[0].classList.remove("menu-scrolled")
         document.getElementsByClassName('menu')[0].classList.remove("menu-scroll-bg")
+        document.getElementsByClassName('logo-image-desktop')[0].classList.remove("logo-image-desktop-scrolled")
     }
 });
 
